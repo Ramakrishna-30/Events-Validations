@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >  
+        Name: <input type="text" name="name"><br/>  
+        Password: <input type="password" name="password"><br/>  
+        <input type="submit" value="register">  
+        </form> 
+
+<br>
+<br>
+        <form name="f1" action="register.jsp" onsubmit="return matchpass()">  
+         Password:<input type="password" name="password" /><br/>  
+         Re-enter Password:<input type="password" name="password2"/><br/>  
+         <input type="submit">  
+         </form>  
+
+<br>
+
+<form name="myform" onsubmit="return validate()" >  
+   Number: <input type="text" name="num"><span id="numloc"></span><br/>  
+   <input type="submit" value="submit">  
+
+
+<br>
+<br>
+
+
+<form name="myform"  method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateemail();">  
+   Email: <input type="text" name="email"><br/>  
+     
+   <input type="submit" value="register">  
+   </form>  
+
+<br>
+<form>  
+   <input type="button" onclick="clickevent()" value="Who's this?"/>  
+   </form>  
+
+
+   <h3> This is an example of using onclick attribute in HTML. </h3>
+<p> Click the following button to see the effect. </p>
+<button onclick = "fun()">Click me</button>
+
+<h3> This is an example of using click event. </h3>
+<p> Click the following text to see the effect. </p>
+<p id = "para">Click me</p>
+
+    <script src="javascriptday4.js"></script>
+ </body>
+ </html>
